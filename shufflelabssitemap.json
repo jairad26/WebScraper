@@ -1,0 +1,23 @@
+{
+    "_id":"shufflelabs",
+    "startUrl":["https://www.shufflelabs.com/insights/"],
+    "selectors":
+    [{"id":"article_title",
+    "type":"SelectorText",
+    "parentSelectors":["_root"],
+    "selector":".entry-title a, a.title",
+    "multiple":true,"regex":"","delay":0},
+    
+    {"id":"article_link",
+    "type":"SelectorLink",
+    "parentSelectors":["_root"],
+    "selector":".entry-title a, a.title",
+    "multiple":true,
+    "delay":0},
+    
+    {"id":"article_summary",
+    "type":"SelectorText",
+    "parentSelectors":["_root"],
+    "selector":".post-content p, span.excerpt",
+    "multiple":true,"regex":"","delay":0}]
+    }
