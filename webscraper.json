@@ -1,9 +1,0 @@
-{
-    "_id":"webscrapersitemap",
-    "startUrl":["https://forum.webscraper.io/"],
-    "selectors":
-    [{"id":"question_name",
-        "type":"SelectorText",
-        "parentSelectors":["_root"],
-        "selector":"a.title",
-        "multiple":true,"regex":"","delay":0}]}
